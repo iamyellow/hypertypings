@@ -1,4 +1,4 @@
-declare module 'automase' {
+declare module 'autobase' {
   import { EventEmitter } from 'node:events'
   import Hypercore from 'hypercore'
 
