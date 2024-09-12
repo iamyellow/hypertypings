@@ -1,0 +1,25 @@
+{
+  "name": "@types/hypertypings",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "prepublishOnly": "node build.js"
+  },
+  "files": [
+    "index.js",
+    "*.d.ts"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^22.5.4",
+    "@types/streamx": "^2.9.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
