@@ -9,6 +9,7 @@
     "prepublishOnly": "node build.js"
   },
   "files": [
+    "package.json",
     "index.js",
     "*.d.ts"
   ],

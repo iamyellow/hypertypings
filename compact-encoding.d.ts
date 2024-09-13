@@ -14,6 +14,7 @@ declare module 'compact-encoding' {
   export const string: CompactEncoding<string>
   export const json: CompactEncoding<Record<string, any>>
   export const any: CompactEncoding<any>
+  export const none: CompactEncoding<void>
 
   export const uint: CompactEncoding<number>
   export const uint8: CompactEncoding<number>
