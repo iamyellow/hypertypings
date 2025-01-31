@@ -9,13 +9,13 @@ These was supposed to be for self-consumption since I love p2p and I love typing
 Install:
 
 ```sh
-npm i --save-dev hypertypings
+npm i --save-dev @iamyellow/hypertypings
 ```
 
 Somewhere in your Typescript code add a [triple-slash directive](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html) referencing `hypertypings`:
 
 ```ts
-/// <reference types="hypertypings" />
+/// <reference types="@iamyellow/hypertypings" />
 ```
 
 Enjoy!
